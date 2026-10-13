@@ -50,7 +50,7 @@ python3 -m unittest discover -s tests -v
 
 ## 参赛与真实验收
 
-参赛所需文件已准备：本文件、官方原文 [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)、[MCP_INTEGRATION.md](MCP_INTEGRATION.md)、脱敏配置与可运行内容。当前尚未发布仓库或报名，也未声称真实 MCP 验收已完成。未使用 WorkBuddy 开发，不生成虚假的 workbuddy.md。
+参赛所需文件已准备：本文件、官方原文 [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)、[MCP_INTEGRATION.md](MCP_INTEGRATION.md)、脱敏配置与可运行内容。项目仓库：https://github.com/yf358559551/mai-hui-xuan 。尚未提交比赛报名，也未声称真实 MCP 验收已完成。未使用 WorkBuddy 开发，不生成虚假的 workbuddy.md。
 
 接入后按 [验收场景](tests/ACCEPTANCE.md) 完成真实查询与价格验证，再录制演示、发布和报名。官方规则要求项目真实使用 MCP，离线测试不能代替该项。官方来源：[MCP 文档](https://github.com/M-China/mcd-mcp-server)、[比赛规则](https://github.com/M-China/mcd-developer-innovation-challenge/blob/main/activityGuidelines.md)。
 
