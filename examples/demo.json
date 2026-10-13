@@ -1,0 +1,150 @@
+{
+  "demo": true,
+  "mode": "deals",
+  "store_id": "DEMO-STORE",
+  "channel": "pickup",
+  "budget_yuan": 30,
+  "low_calorie": true,
+  "likes": [
+    "辣"
+  ],
+  "avoid": [
+    "含糖饮料"
+  ],
+  "required_items": {
+    "demo-side-small": 1
+  },
+  "candidates": [
+    {
+      "id": "activity",
+      "name": "模拟活动套餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {
+          "id": "demo-main",
+          "name": "模拟鸡肉主餐",
+          "quantity": 1,
+          "tags": [
+            "鸡肉",
+            "辣"
+          ],
+          "kcal": 330,
+          "protein_g": 20,
+          "fat_g": 8
+        },
+        {
+          "id": "demo-side-small",
+          "name": "模拟小份配餐",
+          "quantity": 1,
+          "tags": [],
+          "kcal": 150,
+          "protein_g": 2,
+          "fat_g": 5
+        }
+      ],
+      "quote": {
+        "total_yuan": 25,
+        "verified": true,
+        "all_fees_included": true,
+        "store_id": "DEMO-STORE",
+        "channel": "pickup",
+        "queried_at": "2026-10-13T11:58:00+08:00"
+      },
+      "activity": {
+        "name": "模拟午餐活动",
+        "verified": true,
+        "starts_at": "2026-10-13T10:00:00+08:00",
+        "ends_at": "2026-10-13T14:00:00+08:00",
+        "store_id": "DEMO-STORE",
+        "channel": "pickup"
+      },
+      "same_contents_baseline": {
+        "total_yuan": 32,
+        "verified": true,
+        "all_fees_included": true,
+        "store_id": "DEMO-STORE",
+        "channel": "pickup",
+        "queried_at": "2026-10-13T11:58:00+08:00",
+        "items": {
+          "demo-main": 1,
+          "demo-side-small": 1
+        }
+      }
+    },
+    {
+      "id": "ordinary",
+      "name": "模拟日常搭配",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {
+          "id": "demo-main-alt",
+          "name": "模拟鸡肉主餐",
+          "quantity": 1,
+          "tags": [
+            "鸡肉",
+            "辣"
+          ],
+          "kcal": 340,
+          "protein_g": 20,
+          "fat_g": 8
+        },
+        {
+          "id": "demo-side-small",
+          "name": "模拟小份配餐",
+          "quantity": 1,
+          "tags": [],
+          "kcal": 150,
+          "protein_g": 2,
+          "fat_g": 5
+        }
+      ],
+      "quote": {
+        "total_yuan": 23,
+        "verified": true,
+        "all_fees_included": true,
+        "store_id": "DEMO-STORE",
+        "channel": "pickup",
+        "queried_at": "2026-10-13T11:58:00+08:00"
+      }
+    },
+    {
+      "id": "high",
+      "name": "模拟高热量套餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {
+          "id": "demo-main",
+          "name": "模拟鸡肉主餐",
+          "quantity": 1,
+          "tags": [
+            "鸡肉",
+            "辣"
+          ],
+          "kcal": 750,
+          "protein_g": 20,
+          "fat_g": 8
+        },
+        {
+          "id": "demo-side-small",
+          "name": "模拟小份配餐",
+          "quantity": 1,
+          "tags": [],
+          "kcal": 150,
+          "protein_g": 2,
+          "fat_g": 5
+        }
+      ],
+      "quote": {
+        "total_yuan": 20,
+        "verified": true,
+        "all_fees_included": true,
+        "store_id": "DEMO-STORE",
+        "channel": "pickup",
+        "queried_at": "2026-10-13T11:58:00+08:00"
+      }
+    }
+  ]
+}

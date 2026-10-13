@@ -1,0 +1,13 @@
+interface:
+  display_name: "麦会选"
+  short_description: "按口味、预算和热量挑麦当劳套餐，保留想吃的，核验当前优惠"
+  default_prompt: "用 $mai-hui-xuan 帮我挑一份 30 元以内的麦当劳套餐，看看当前优惠，并标注热量档。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mcd-mcp"
+      description: "麦当劳中国菜单、优惠、价格试算和营养信息"
+      transport: "streamable_http"
+      url: "https://mcp.mcd.cn"
+policy:
+  allow_implicit_invocation: true

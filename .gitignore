@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.venv/
+dist/
+preferences.json
+live-*.json
+mcp-config.local.json
